@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "conectamundo",
+    "name": "Conecta Mundo",
     "slug": "conectamundo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/iconeapp.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/applogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medeirosge.conectamundo"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/applogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.medeirosge.conectamundo"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/applogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e20d9bed-97e5-430e-b35e-6358d2e9f279"
+      }
     }
   }
 }
